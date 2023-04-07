@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+
+body {
+    background-image: url(http://mobileimages.lowes.com/productimages/da584a51-6ded-4001-99b0-aa43a3d3a315/12069916.jpg), url(https://www.colorhexa.com/f9e2e0.png);
+    background-repeat: no-repeat,no-repeat;
+    background-size: 50% 100%;
+    background-position: left top,right top;
+    font-family: 'san-serif';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+form {
+    background-color: #f9e0e2;
+    padding: 60px;
+    width: 550px;
+    max-width: calc(100%-60px);
+
+}
+.form-element {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-element span {
+    margin-bottom: 10px;
+}
+input {
+    border:1px solid rgb(39, 38, 38);
+    line-height: 2;
+    padding: 5px;
+    border-radius: 5px;
+    width: auto;
+}
+.radio-buttons label {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+form button {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    color: rgb(1, 1, 1);
+    background-color: #bdcfb5;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    align-content: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+.nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #6a98ed;
+}
