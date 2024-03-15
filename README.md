@@ -1,3 +1,3 @@
 # Google-form
 
-https://googleform-html-css.netlify.app/ 
+<a href="https://googleform-html-css.netlify.app/">Visit Google form</a>
